@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>$safeprojectname$</RootNamespace>
+    <ProjectName>spider</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieBLE\src;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieIMU\src;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\Wire;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieBLE\src\utility;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieIMU\src\utility;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\Wire\utility;C:\Program Files (x86)\Arduino\libraries;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries;C:\Users\syp\Documents\Arduino\libraries;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\cores\arduino;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\cores\arduino\avr;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\variants\arduino_101;D:\20160622-QPAKO\6.workspace\qpako-curiedevice\spider;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\system/libarc32_arduino101/common;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\system/libarc32_arduino101/drivers;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\system/libarc32_arduino101/bootcode;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\system/libarc32_arduino101/framework/include;D:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\3sdaf3ur.azw\Micro Platforms\default\debuggers\VM_DBG;D:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\3sdaf3ur.azw\Micro Platforms\default\debuggers;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\cores\arduino;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\variants\arduino_101;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieBLE\src;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieIMU\src;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\Wire;C:\Program Files (x86)\Arduino\libraries;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries;C:\Users\syp\Documents\Arduino\libraries;C:\Users\syp\AppData\Local\arduino15\packages\Intel\tools\arc-elf32\1.6.4+1.0\1.6.4+1.0\include;C:\Users\syp\AppData\Local\arduino15\packages\Intel\tools\arc-elf32\1.6.4+1.0\arc-elf32\include;C:\Users\syp\AppData\Local\arduino15\packages\Intel\tools\arc-elf32\1.6.4+1.0\lib\gcc\arc-elf32\4.8.3\include;C:\Users\syp\AppData\Local\arduino15\packages\Intel\tools\arc-elf32\1.6.4+1.0\lib\gcc\arc-elf32\4.8.3\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\20160622-QPAKO\6.workspace\qpako-curiedevice\spider\__vm\.spider.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>__ARDUINO_ARC__;F_CPU=32000000L;ARDUINO=10608;ARDUINO_ARC32_TOOLS;ARDUINO_ARCH_ARC32;__CPU_ARC__;CLOCK_SPEED=32;CONFIG_SOC_GPIO_32;CONFIG_SOC_GPIO_AON;INFRA_MULTI_CPU_SUPPORT;CFW_MULTI_CPU_SUPPORT;HAS_SHARED_MEM;__cplusplus=201103L;GCC_VERSION=40803;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieBLE\src;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieIMU\src;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\Wire;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieBLE\src\utility;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries\CurieIMU\src\utility;C:\Program Files (x86)\Arduino\libraries;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\libraries;C:\Users\syp\Documents\Arduino\libraries;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\cores\arduino;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\cores\arduino\avr;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\variants\arduino_101;D:\20160622-QPAKO\6.workspace\qpako-curiedevice\spider;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\system/libarc32_arduino101/common;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\system/libarc32_arduino101/drivers;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\system/libarc32_arduino101/bootcode;C:\Users\syp\AppData\Local\arduino15\packages\Intel\hardware\arc32\1.0.5\system/libarc32_arduino101/framework/include;C:\Users\syp\AppData\Local\arduino15\packages\Intel\tools\arc-elf32\1.6.4+1.0\1.6.4+1.0\include;C:\Users\syp\AppData\Local\arduino15\packages\Intel\tools\arc-elf32\1.6.4+1.0\arc-elf32\include;C:\Users\syp\AppData\Local\arduino15\packages\Intel\tools\arc-elf32\1.6.4+1.0\lib\gcc\arc-elf32\4.8.3\include;C:\Users\syp\AppData\Local\arduino15\packages\Intel\tools\arc-elf32\1.6.4+1.0\lib\gcc\arc-elf32\4.8.3\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\20160622-QPAKO\6.workspace\qpako-curiedevice\spider\__vm\.spider.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__ARDUINO_ARC__;F_CPU=32000000L;ARDUINO=10608;ARDUINO_ARC32_TOOLS;ARDUINO_ARCH_ARC32;__CPU_ARC__;CLOCK_SPEED=32;CONFIG_SOC_GPIO_32;CONFIG_SOC_GPIO_AON;INFRA_MULTI_CPU_SUPPORT;CFW_MULTI_CPU_SUPPORT;HAS_SHARED_MEM;__cplusplus=201103L;GCC_VERSION=40803;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spider.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helper_3dmath.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="I2Cdev.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="MPU6050.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="MPU6050_6Axis_MotionApps20.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="MPU6050_9Axis_MotionApps41.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="soft_i2c.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SpiderMotor.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="task.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="__vm\.spider.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="I2Cdev.cpp" />
+    <ClCompile Include="MPU6050.cpp" />
+    <ClCompile Include="soft_i2c.c" />
+    <ClCompile Include="SpiderMotor.cpp" />
+    <ClCompile Include="task.cpp" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

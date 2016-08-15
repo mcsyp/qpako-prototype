@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Joystick.qml</file>
+        <file>PanelController.qml</file>
+        <file>images/bar_landscape.png</file>
+        <file>images/joystick.png</file>
+        <file>images/joystick_frame.png</file>
+        <file>images/joystick_range.png</file>
+        <file>images/scan_device_landscape.png</file>
+        <file>images/scanning.png</file>
+        <file>PanelScan.qml</file>
+        <file>grid_generator.js</file>
+        <file>images/grid.png</file>
+        <file>images/grid_fill.png</file>
+        <file>MapGrid.qml</file>
+        <file>images/heading.png</file>
+        <file>images/step_counter.png</file>
+        <file>Footprint.qml</file>
+        <file>images/footprint.png</file>
+        <file>queue.js</file>
+        <file>Spider.qml</file>
+        <file>images/flag.png</file>
+        <file>images/heading_arrow.png</file>
+        <file>images/reset_btn.png</file>
+    </qresource>
+</RCC>
