@@ -46,11 +46,11 @@ Task g_task[TASK_NUM];
 #define SPIDER_UUID_AUTOPILOT "19B10000-E8F2-537E-4F6C-D10476AB9349"
 #define SPIDER_MAX_JOYSTICK_CHAR 4
 #define SPIDER_MAX_IMU_CHAR 12
-#define SPIDER_MAX_AUTOPILOT_CHAR 6
+#define SPIDER_MAX_AUTOPILOT_CHAR 8
 BLEPeripheral blePeripheral;
 BLEService spiderService(SPIDER_UUID);
-BLECharacteristic joystickChar(SPIDER_UUID_JOY,BLERead | BLEWrite,SPIDER_MAX_AUTOPILOT_CHAR);
-BLECharacteristic autopilotChar(SPIDER_UUID_AUTOPILOT,BLERead | BLEWrite,8);
+BLECharacteristic joystickChar(SPIDER_UUID_JOY,BLERead | BLEWrite,SPIDER_MAX_JOYSTICK_CHAR);
+BLECharacteristic autopilotChar(SPIDER_UUID_AUTOPILOT,BLERead | BLEWrite,SPIDER_MAX_AUTOPILOT_CHAR);
 BLELongCharacteristic stepCounterChar(SPIDER_UUID_STEP,BLERead | BLENotify);
 BLEFloatCharacteristic headingChar(SPIDER_UUID_HEADING,BLERead | BLENotify);
 /****************************
